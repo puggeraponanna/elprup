@@ -21,6 +21,10 @@ func Fatal(v ...any) {
 	logrus.Fatal(v...)
 }
 
+func Panic(v ...any) {
+	logrus.Panic(v...)
+}
+
 func Info(v ...any) {
 	logrus.Info(v...)
 }

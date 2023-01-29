@@ -7,7 +7,12 @@ import (
 )
 
 type Config struct {
-	Environment string
+	Environment Env
+	DbConfig    DbConfig
+}
+
+type DbConfig struct {
+	Dsn string
 }
 
 func LoadConfig() *Config {

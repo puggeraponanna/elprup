@@ -1,1 +1,4 @@
 Environment: Dev
+
+DbConfig:
+  Dsn: "host=localhost user=postgres password=postgres dbname=postgres port=5432"
